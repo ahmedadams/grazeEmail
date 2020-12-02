@@ -1,0 +1,70 @@
+---
+layout: graze
+subject: enjoy 20% off graze shop!
+percentage: 20
+---
+
+<container>
+  <!-- Hero image -------------------------------------------------------------->
+  <row class="hero collapse">
+    <columns>
+      <a href="#">
+        <img src="{{grazePromo.deal.image}}" alt="20% off sitewide" />
+      </a>
+    </columns>
+  </row>
+  <spacer size="18"></spacer>
+  <!-- Deal summary -------------------------------------------------------------->
+  <row class="deal-summary">
+    <columns>
+      <p>
+        {{grazePromo.deal.firstPara}}
+      </p>
+      <p>
+        {{grazePromo.deal.secondPara}} &#128523;
+      </p>
+      <p>
+        {{grazePromo.deal.thirdPara}} &#127881;
+      </p>
+    </columns>
+  </row>
+  <row class="deal_btn">
+    <columns>
+      <center>
+        <a href="{{grazePromo.deal.link}}" class="middle_btn">
+          <span>20% off graze shop</span>
+        </a>
+      </center>
+    </columns>
+  </row>
+  <!-- Featured ----------------------------------------------------------------->
+  <row class="featured-section">
+    {{#each grazePromo.featured}}
+    <columns>
+      <a href="#" class="featured-img">
+        <center>
+          <img src="{{ this.image }}"/>
+          <span class="title">{{ this.title }}</span>
+        </center>
+      </a>
+    </columns>
+    {{/each}}
+  </row>
+  <!-- Rewards ---------------------------------------------------------------->
+  <row class="rewards-title">
+    <columns>
+      <p class="text-center">
+        {{grazePromo.rewards.title}} &#128071;
+      </p>
+    </columns>
+  </row>
+  <row class="rewards">
+    <columns small="12" large="12">
+        <a href="#" class="rewards-link">
+          <center>
+            <img src="{{grazePromo.rewards.image}}"/>
+          </center>
+        </a>
+    </columns>
+  </row>
+</container>
