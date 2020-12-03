@@ -1,0 +1,28 @@
+{
+   "title":"enjoy 20% off graze shop",
+   "deal":{
+      "image":"https://i.imgur.com/WRPox6B.png",
+      "firstPara":"We know how tempting it can be to quickly reach for that packet of crisps or grab a bar of chocolate from your kitchen cupboard.",
+      "secondPara":"That’s where we can help - each of our tasty snacks are made with ingredients from nature and are packed with benefits, like protein, fibre or vitamins & minerals, which makes them the perfect feel-good switch!",
+      "thirdPara": "And to make this month a little sweeter (or crunchier, or oatier, or nuttier, or…) we’re offering a 20% off* graze shop!",
+      "link":"#"
+   },
+   "featured":[
+      {
+         "title":"our crunch range",
+         "image":"https://i.imgur.com/8eakPkW.jpg"
+      },
+      {
+         "title":"classic graze flapjacks",
+         "image":"https://i.imgur.com/B6rzUux.jpg"
+      },
+      {
+         "title":"our choclate snacks",
+         "image":"https://i.imgur.com/gVezt45.jpg"
+      }
+   ],
+   "rewards":{
+      "title":"Fancy a different offer? Check out your rewards",
+      "image":"https://i.imgur.com/woPIhII.jpg"
+   }
+}
